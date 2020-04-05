@@ -38,11 +38,11 @@ provided reference genome.'
        - '.select2-drop .select2-results > :nth-child(1):visible'
 
   - title: '<b>Map sequences against a reference genome</b>'
-    element: '[tour_id="refGenomeSource|genomeSource"] .ui-select .select2-container .select2-choice:visible'
+    element: '[tour_id="refGenomeSource|own_reference_genome"] .ui-select .select2-container .select2-choice:visible'
     content: 'Open the dropdown menu.'
     placement: top
     onnextclick:
-      - '[tour_id="refGenomeSource|genomeSource"] .ui-select .select2-container .select2-choice:visible'
+      - '[tour_id="refGenomeSource|own_reference_genome"] .ui-select .select2-container .select2-choice:visible'
   - title: '<b>Map sequences against a reference genome</b>'
     element: '.select2-drop .select2-input:visible'
     content: 'Search and select <b>hg38.goi.fa</b>.'
